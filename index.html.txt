@@ -1,0 +1,102 @@
+index.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Diazen Home Massage | Professional Home Massage Service Mumbai</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Diazen Home Massage provides professional home massage services in Mumbai. Book Swedish, Aromatherapy, Deep Tissue & Relaxation Massage.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero">
+    <div class="overlay">
+        <h1 class="fade-in">Diazen Home Massage</h1>
+        <p class="fade-in-delay">
+            Professional Home Massage Service in Mumbai<br>
+            Available 24 Hours | Appointment Based
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#booking" class="btn-primary">Book Massage</a>
+            <a href="tel:8432209012" class="btn-secondary">Call Now</a>
+        </div>
+    </div>
+</header>
+
+<section class="services">
+    <h2>Our Massage Services</h2>
+
+    <div class="service-grid">
+        <div class="card">
+            <h3>Swedish Massage</h3>
+            <p>Best for stress relief & relaxation</p>
+            <span>45 min – ₹1500</span>
+        </div>
+
+        <div class="card">
+            <h3>Aromatherapy Massage</h3>
+            <p>Helps with anxiety & depression</p>
+            <span>45 min – ₹2000</span>
+        </div>
+
+        <div class="card">
+            <h3>Deep Tissue Massage</h3>
+            <p>For muscle pain & stiffness</p>
+            <span>45 min – ₹1500</span>
+        </div>
+
+        <div class="card">
+            <h3>Relaxation Massage</h3>
+            <p>Full body & mind relaxation</p>
+            <span>Session – ₹2500</span>
+        </div>
+    </div>
+</section>
+
+<section id="booking" class="booking">
+    <h2>Book Your Massage</h2>
+    <p>Select your requirement and massage type. Booking fee ₹199 required.</p>
+
+    <form>
+        <label>What do you need?</label>
+        <select>
+            <option>Stress Relief</option>
+            <option>Depression / Anxiety</option>
+            <option>Body Pain</option>
+            <option>Full Body Relaxation</option>
+        </select>
+
+        <label>Select Massage</label>
+        <select>
+            <option>Swedish Massage – ₹1500</option>
+            <option>Aromatherapy Massage – ₹2000</option>
+            <option>Deep Tissue Massage – ₹1500</option>
+            <option>Relaxation Massage – ₹2500</option>
+        </select>
+
+        <label>Your Name</label>
+        <input type="text" required>
+
+        <label>Phone Number</label>
+        <input type="tel" required>
+
+        <p class="payment">
+            Booking Fee: ₹199<br>
+            UPI ID: <b>rushikeshsadavarte58-3@okaxis</b><br>
+            After payment, we will contact you on WhatsApp.
+        </p>
+
+        <button type="submit">Submit Booking</button>
+    </form>
+</section>
+
+<footer>
+    <p>We provide professional spa and wellness massage services only.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
